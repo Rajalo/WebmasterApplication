@@ -13,7 +13,7 @@ let buildScrolls = function() {
             document.getElementById(id).scrollIntoView(true);
             setTimeout(() => {
                 window.scrollBy(0,-190)
-                }, 500);
+                }, 700);
         }
     }
 }
