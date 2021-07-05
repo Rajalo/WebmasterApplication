@@ -1,0 +1,43 @@
+:root {
+    --blue: #1f386a;
+    --white: rgb(255, 243, 243);
+    --grey: #333;
+    --red:#6a1f1f;
+    --green: #1f6a25;
+}
+html {
+    font-family: 'Courier New', Courier, monospace;
+    scroll-behavior: smooth;
+}
+.navbar {
+    background-color: var(--grey);
+    color: var(--white);
+}
+#logo {
+    background-color: var(--blue);
+}
+#about {
+    background-color: var(--blue);
+}
+#eboard {
+    background-color: var(--green);
+}
+#calendar {
+    background-color: var(--grey);
+}
+#creations {
+    background-color: var(--red);
+}
+#connect {
+    background-color: var(--blue);
+}
+#sponsors {
+    background-color: var(--green);
+}
+.section {
+    color: var(--white);
+}
+
+.eboard-spacer {
+    color: var(--green);
+}
