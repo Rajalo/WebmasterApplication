@@ -1,0 +1,125 @@
+:root {
+    --light-green: #8eff9b;
+    --light-hover-green: #b9ffc1;
+    --near-light-green: #62e672;
+    --normal-green: #38c031;
+    --normal-hover-green: #4ed847;
+    --dark-normal-green: #2a8625;
+    --dark-normal-hover-green: #2d9928;
+    --dark-green: #1b6417;
+    --dark-hover-green: #185715;
+    --near-dark-green: #236e1f;
+    --light-text: #f8ffd8;
+    --dark-text:#35372e; 
+    --light-red: #ff8e8e;
+    --normal-red: #912424;
+    --dark-red: #501111;
+    --dark-dark-red: #3d0d0d;
+    --deep-black: #030303;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark-dark-red);
+}
+body {
+    font-family: 'Comfortaa', monospace;
+}
+
+.header {
+    background-color: var(--light-green);
+    color: var(--dark-text);
+    font-family: 'Comfortaa', monospace;
+}
+.headerDark {
+    background-color: var(--dark-green);
+    color: var(--light-text);
+}
+#toggleMode {
+    cursor: pointer;
+}
+.toggleModeLight {
+    background-color: var(--dark-green);
+    color: var(--light-text);
+}
+.toggleModeDark {
+    background-color: var(--light-green);
+    color: var(--dark-text);
+}
+.toggleModeLight:hover {
+    background-color: var(--dark-hover-green);
+}
+.toggleModeDark:hover{
+    background-color: var(--light-hover-green);
+}
+
+.logo {
+    font-size: xx-large;
+}
+.tabs {
+    background-color: var(--normal-green);
+}
+.tabsDark {
+    background-color: var(--dark-normal-green);
+}
+.tab-item {
+    cursor: pointer;
+    color: var(--dark-text);
+    border-left: 1px solid;
+    border-right: 1px solid;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    font-size: large;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tab-itemDark {
+    color: var(--light-text)
+}
+.tab-item-selected {
+    background-color: var(--near-light-green);
+    cursor: auto;
+}
+.tab-item-selectedDark {
+    background-color: var(--near-dark-green);
+}
+.tab-item:hover {
+    background-color: var(--normal-hover-green);
+}
+.tab-itemDark:hover {
+    background-color: var(--dark-normal-hover-green);
+}
+.tab-item-selected:hover {
+    background-color: var(--near-light-green);
+}
+.tab-item-selectedDark:hover {
+    background-color: var(--near-dark-green);
+}
+.content {
+    background-color: var(--normal-red);
+}
+.contentDark {
+    background-color: var(--dark-red);
+}
+.content-center {
+    background-color: var(--light-red);
+    text-align: center;
+    color: var(--dark-text);
+    padding-bottom: 50px;
+}
+.content-centerDark {
+    background-color: var(--normal-red);
+    color: var(--light-text);
+}
+p {
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+a {
+    color: #299fba;
+}
